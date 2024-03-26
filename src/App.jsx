@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home handleAdd={handleAdd} />} />
           <Route path="/aboutus" element={<Aboutus />} />
-          <Route path="/ourfood" element={<OurFood />} />
+          <Route path="/ourfood" element={<OurFood handleAdd={handleAdd} />} />
           <Route path="/signin" element={<Signin />} />
         </Routes>
         <Footer />
