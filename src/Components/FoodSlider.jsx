@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React from "react";
 import { topPicks } from "../Data/data";
 import "slick-carousel/slick/slick.css";
@@ -43,7 +44,7 @@ function FoodSlider({ handleAdd }) {
   return (
     <>
       <div className=" w-[90%] mx-auto">
-        <h2 className=" font-bold text-3xl pl-10">What's on your mind?</h2>
+        <h2 className=" font-bold text-3xl pl-10">What on your mind?</h2>
         <div className=" py-20">
           <Slider {...settings}>
             {topPicks.map((item) => (
